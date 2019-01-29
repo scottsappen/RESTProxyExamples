@@ -18,7 +18,6 @@ You can produce to the REST Proxy using Binary data (base64 encoded strings), JS
 
 **Example 1**
 
-<br/>
 **Producing and consuming binary data**
 
 In this example, we will post this JSON binary (base64) data to the new binary topic we just created.
@@ -80,8 +79,9 @@ curl -X DELETE -H "Content-Type: application/vnd.kafka.v2+json" \
 ```
 
 <br/>
+
 **Example 2**
-<br/>
+
 **Producing and consuming JSON data**
 
 JSON data does not need to be transformed like the example 1 above. JSON can be sent as is to the REST Proxy.
@@ -144,8 +144,9 @@ curl -X DELETE -H "Content-Type: application/vnd.kafka.v2+json" \
 ```
 
 <br/>
+
 **Example 3**
-<br/>
+
 **Producing and consuming Avro data**
 
 Again, the interesting feature here is you can (and should) connect REST Proxy directly to the Confluent Schema Registry.
