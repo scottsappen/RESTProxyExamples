@@ -15,7 +15,9 @@ Be aware though:
 You can produce to the REST Proxy using Binary data (base64 encoded strings), JSON (plain old JSON) and Avro (JSON encoded data). With the latter, you can configure REST Proxy (and should) to connect directly to the Confluent Schema Registry. If you want help encoding/decoding to/from base64, you can try this free utility: http://www.utilities-online.info/base64.
 
 <br/>
+
 **Example 1**
+
 <br/>
 **Producing and consuming binary data**
 
