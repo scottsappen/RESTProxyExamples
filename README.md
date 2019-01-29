@@ -14,7 +14,7 @@ Be aware though:
 
 You can produce to the REST Proxy using Binary data (base64 encoded strings), JSON (plain old JSON) and Avro (JSON encoded data). With the latter, you can configure REST Proxy (and should) to connect directly to the Confluent Schema Registry. If you want help encoding/decoding to/from base64, you can try this free utility: http://www.utilities-online.info/base64.
 
-<br/>
+<br/><br/>
 
 **Example 1**
 
@@ -78,7 +78,7 @@ curl -X DELETE -H "Content-Type: application/vnd.kafka.v2+json" \
       http://localhost:8082/consumers/my_binary_consumer/instances/my_consumer_instance
 ```
 
-<br/>
+<br/><br/>
 
 **Example 2**
 
@@ -143,7 +143,7 @@ curl -X DELETE -H "Content-Type: application/vnd.kafka.v2+json" \
       http://localhost:8082/consumers/my_json_consumer/instances/my_consumer_instance
 ```
 
-<br/>
+<br/><br/>
 
 **Example 3**
 
@@ -213,4 +213,5 @@ curl -X DELETE -H "Content-Type: application/vnd.kafka.v2+json" \
 ```
 
 <br/>
+
 **That's it. I hope this summed it up a few quick examples for you nicely.**
