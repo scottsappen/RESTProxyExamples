@@ -50,4 +50,5 @@ The interesting feature here is you can (and should) connect REST Proxy directly
 Everything is pretty much similar except that you send the schema and payload in JSON. Also, after you first produce you will receive a schema ID which you can re-use for future production.
 
 <br/>
+
 **That's it. I hope this summed it up a few quick examples for you nicely.**
